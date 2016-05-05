@@ -1,0 +1,189 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    background-color: #fff;
+    color: #fff;
+    font-family: 'Gotham-Light', 'Lato', 'Arial', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    text-rendering: optimizeLegibility;
+    overflow: hidden;
+}
+
+h1 {
+    font-size: 3.5rem;
+    font-weight: 300;
+}
+
+i {
+    color: #fff;
+}
+
+.row{
+    position: absolute;
+    left: 7%;
+    
+}
+
+/*Background*/
+.logo img{
+    position: relative;
+    float: left;
+    z-index: 9999;
+    width: 50px;
+    margin-top: 200%;
+    
+}
+
+/*Background*/
+.main {
+    background-image: url(ladyWalking.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+     height: 101vh;
+}
+
+.triangleOrange {
+    position: relative;
+    float: left;
+	width: 0;
+	height: 0;
+	border-top: 1900px solid rgba(255, 101, 0, 0.8);
+	border-right: 99vw solid transparent;
+}
+	
+
+.triangleWhite {
+    position: absolute;
+    width: 0;
+    height: 0;
+    right: 0;
+    border-bottom: 1900px solid #fff;
+    border-left: 99vw solid transparent;
+}
+
+/*Text*/
+.rightCol{
+    margin-top: 15%;   
+}
+
+.entry {
+    margin: 100px 10px;
+    line-height: 3em;
+    width: 70%;
+}
+
+.emailBackground {
+    background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2));
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2));
+    margin: 0px 0px;
+}
+
+input {
+    border: 0;
+    outline: 0;
+    width: 100%;
+    background: transparent;
+    color: #ffffff;
+    line-height: 3em;
+    margin-left: 35px;
+    font-size: 20px;
+}
+
+::-webkit-input-placeholder {
+    color: #ffffff;
+    font-family: 'Gotham-Light', 'Lato', 'Arial', sans-serif;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+    color: #ffffff;
+    font-family: 'Gotham-Light', 'Lato', 'Arial', sans-serif;
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+    color: #ffffff;
+    font-family: 'Gotham-Light', 'Lato', 'Arial', sans-serif;
+}
+
+:-ms-input-placeholder {  
+    color: #ffffff;  
+    font-family: 'Gotham-Light', 'Lato', 'Arial', sans-serif;
+}
+
+.emailBtn {
+    border: solid 1px #fff;
+    margin: 30px 0px;
+}
+
+
+.emailBtn input{
+    text-transform: uppercase;
+    font-family: 'Gotham-Bold', 'Lato', 'Arial', sans-serif;
+    font-weight: 700;
+    text-align: center;
+    margin-left: 0;
+}
+
+input[type="submit"]:hover,
+input[type="submit"]:active{
+    background-color: #ffffff;
+    color: #ff6500;
+}
+
+
+
+/*Left Column*/
+.leftCol {
+    text-align: center;
+    margin-top: -5%;
+}
+
+.leftCol img{
+    width: 400px;
+}
+
+/*Footer*/
+footer {
+    position: absolute;
+    bottom: 5%;
+    padding: 50px;
+    font-size: 1.2rem;
+    width: 100%;
+}
+
+li {
+    margin-right: 40px
+}
+
+.socialIcons li{
+    list-style: none;
+    float: left;
+}
+
+.ion-social-facebook:hover {
+    color: #3b5998;
+}
+
+.ion-social-twitter:hover {
+    color: #00aced;
+}
+
+.ion-social-googleplus:hover {
+    color: #dd4b39;
+}
+
+ion-social-instagram-outline:hover {
+    color: #157fa4;
+}
+
+
+
+
+
+

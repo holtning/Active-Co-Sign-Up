@@ -1,0 +1,85 @@
+/*Small phones to small tablets: from 481px to 767px*/
+@media only screen and (max-width: 925px) {
+
+    html,
+    body {
+        background-color: #fff;
+        color: #fff;
+        font-family: 'Gotham-Light', 'Lato', 'Arial', sans-serif;
+        font-weight: 300;
+        font-size: 19px;
+        text-rendering: optimizeLegibility;
+        overflow: hidden;
+    }
+
+    h1 {
+        font-size: 2.4rem;
+        font-weight: 300;
+    }
+
+    
+/*Background*/
+    .logo img{
+        margin-top: 100%;
+    }
+    
+/*Text*/
+    .rightCol{
+        margin-top: 25%;   
+    }
+    
+    .entry {
+        width: 90%;
+    }
+    
+    
+/*Left Column*/
+    .leftCol {
+        text-align: center;
+        margin: -4% 0 0 -2%;
+        
+    }
+
+    .leftCol img{
+        width: 300px;
+    }
+    
+/*Footer*/
+    .footer {
+        position: absolute;
+        bottom: 0%;
+        font-size: 1.2rem;
+    }
+
+}
+
+/*Small phones: from 0 to 480px*/
+@media only screen and (max-width: 672px) {
+    
+    .triangleOrange {
+        border-right: 110vw solid transparent;
+    }
+
+
+    .triangleWhite {;
+        right: -60px;
+        border-left: 110vw solid transparent;
+    }
+    
+    .rightCol {
+        margin-top: 35%;   
+    }
+    
+    .col {
+        width: 100%;
+        margin: 0 0 4% 0;
+    }
+    
+    .entry {
+        margin: 50px 10px;
+        width: 90%;
+    }
+    
+    .col img{
+        display: none;
+}
